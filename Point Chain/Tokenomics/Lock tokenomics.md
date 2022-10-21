@@ -17,7 +17,8 @@ The kind of tokenomics when user incentives depends on the length of the period 
 9. Add Hook to calculate correct tokens withdraw amount `shares / Lock period coefficient`
 10. Check if recalculated shares does not affect anything else in application in an unexpected way.
 11. Create a `Cli api` & `RPC` to get `DelegatorLock` values, `staked tokens amount`, `LockEnd`, `LockLength`.
-12. Write module tests.
-13. Write application level tests
-14. Application update module for backward compatibility.
-15. Register module in a Point Application.
+12. Prepare protobuf files and validations
+13. Write module tests.
+14. Write application level tests
+15. Application update module for backward compatibility.
+16. Register module in a Point Application.
