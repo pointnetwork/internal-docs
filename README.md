@@ -6,9 +6,5 @@ propose the following workflow when discussing stuff:
   along with some of the pre-discussions that we had on Slack
 * We continue on point-discussions
 
-Why private? Because there might be stuff that the public should not know. Like
-when we were discussing the legalities of having a Point Store. And they're not
-going to be mature enough ideas to reach PIP-level.
-
 When an idea reaches maturity, we can then escalate the discussed matters into a
 proper PIP.
