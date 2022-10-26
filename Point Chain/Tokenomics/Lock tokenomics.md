@@ -4,7 +4,7 @@ The kind of tokenomics when user incentives depends on the length of the period 
 
 ## Required updates for Staking/delegation module
 0. Create a new module `DelegationLock`
-1. Add lock period length `MIN` & `MAX` constants.
+1. Add lock period length `MIN` & `MAX` genesis constants.
 2. Creat `DelegatorLock` structure.
    1. With `LockCoefficient` parameter
    2. With `LockStart` parameter
