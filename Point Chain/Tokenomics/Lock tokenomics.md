@@ -8,7 +8,7 @@ The kind of tokenomics when user incentives depends on the length of the period 
 2. Creat `DelegatorLock` structure.
    1. With `LockCoefficient` parameter
    2. With `LockStart` parameter
-3. Create storage `mapping` for `DelegatorLock` where key will be `delegator address`.
+3. Create storage `mapping` for `DelegatorLock` where key will be `delegator address` & `validator address`.
 4. Map `lockCoefficient` with lock period length where `MAX=1` and `MIN=0+`
 5. Calculate Shares as: `Shares = delegated tokens * Lock period coefficient`
 6. Use Hook to set default `LockCoefficient` and `LockStart` values when delegation is done using standard cosmosSDK API.
